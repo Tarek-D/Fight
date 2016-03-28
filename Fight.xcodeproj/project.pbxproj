@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5408F4D1CA82CBD002AE690 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5408F4C1CA82CBD002AE690 /* Minecraft.ttf */; };
+		D54CA7731CA9555500AAAE6B /* Shogun.caf in Resources */ = {isa = PBXBuildFile; fileRef = D54CA7721CA9551800AAAE6B /* Shogun.caf */; };
+		D57A33621CA6E367008EE530 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A33611CA6E367008EE530 /* Game.swift */; };
 		D5C83BA01CA2D8CB00AD4468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C83B9F1CA2D8CB00AD4468 /* AppDelegate.swift */; };
 		D5C83BA21CA2D8CB00AD4468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C83BA11CA2D8CB00AD4468 /* ViewController.swift */; };
 		D5C83BA51CA2D8CB00AD4468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C83BA31CA2D8CB00AD4468 /* Main.storyboard */; };
 		D5C83BA71CA2D8CB00AD4468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C83BA61CA2D8CB00AD4468 /* Assets.xcassets */; };
 		D5C83BAA1CA2D8CB00AD4468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C83BA81CA2D8CB00AD4468 /* LaunchScreen.storyboard */; };
+		D5C83BB21CA2E5FD00AD4468 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C83BB11CA2E5FD00AD4468 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5408F4C1CA82CBD002AE690 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		D54CA7721CA9551800AAAE6B /* Shogun.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shogun.caf; sourceTree = "<group>"; };
+		D57A33611CA6E367008EE530 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D5C83B9C1CA2D8CB00AD4468 /* Fight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C83B9F1CA2D8CB00AD4468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5C83BA11CA2D8CB00AD4468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		D5C83BA61CA2D8CB00AD4468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5C83BA91CA2D8CB00AD4468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C83BAB1CA2D8CB00AD4468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C83BB11CA2E5FD00AD4468 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		D5C83B9E1CA2D8CB00AD4468 /* Fight */ = {
 			isa = PBXGroup;
 			children = (
+				D54CA7721CA9551800AAAE6B /* Shogun.caf */,
+				D5408F4C1CA82CBD002AE690 /* Minecraft.ttf */,
 				D5C83B9F1CA2D8CB00AD4468 /* AppDelegate.swift */,
 				D5C83BA11CA2D8CB00AD4468 /* ViewController.swift */,
 				D5C83BA31CA2D8CB00AD4468 /* Main.storyboard */,
 				D5C83BA61CA2D8CB00AD4468 /* Assets.xcassets */,
 				D5C83BA81CA2D8CB00AD4468 /* LaunchScreen.storyboard */,
 				D5C83BAB1CA2D8CB00AD4468 /* Info.plist */,
+				D5C83BB11CA2E5FD00AD4468 /* Character.swift */,
+				D57A33611CA6E367008EE530 /* Game.swift */,
 			);
 			path = Fight;
 			sourceTree = "<group>";
@@ -124,6 +136,8 @@
 			files = (
 				D5C83BAA1CA2D8CB00AD4468 /* LaunchScreen.storyboard in Resources */,
 				D5C83BA71CA2D8CB00AD4468 /* Assets.xcassets in Resources */,
+				D5408F4D1CA82CBD002AE690 /* Minecraft.ttf in Resources */,
+				D54CA7731CA9555500AAAE6B /* Shogun.caf in Resources */,
 				D5C83BA51CA2D8CB00AD4468 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C83BB21CA2E5FD00AD4468 /* Character.swift in Sources */,
 				D5C83BA21CA2D8CB00AD4468 /* ViewController.swift in Sources */,
 				D5C83BA01CA2D8CB00AD4468 /* AppDelegate.swift in Sources */,
+				D57A33621CA6E367008EE530 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 				D5C83BB01CA2D8CB00AD4468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
